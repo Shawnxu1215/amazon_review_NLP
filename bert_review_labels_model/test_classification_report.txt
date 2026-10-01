@@ -1,0 +1,19 @@
+                    precision    recall  f1-score   support
+
+   App_Performance     0.6319    0.9308    0.7527       260
+  Search_Discovery     0.4529    0.9059    0.6039        85
+ Ordering_Checkout     0.3874    0.8958    0.5409        48
+   Payment_Billing     0.4277    0.9714    0.5939        70
+ Delivery_Tracking     0.3200    0.9072    0.4731        97
+   Returns_Refunds     0.3203    0.9245    0.4757        53
+    Product_Seller     0.2366    0.7750    0.3626        40
+Pricing_Promotions     0.5041    0.9683    0.6630        63
+     Account_Prime     0.3281    0.9326    0.4854        89
+  Customer_Service     0.3626    0.8986    0.5167        69
+          No_Issue     0.8195    0.9205    0.8670       503
+      other_issues     0.8035    0.7858    0.7946       817
+
+         micro avg     0.5801    0.8701    0.6961      2194
+         macro avg     0.4662    0.9014    0.5941      2194
+      weighted avg     0.6670    0.8701    0.7320      2194
+       samples avg     0.7062    0.8658    0.7528      2194

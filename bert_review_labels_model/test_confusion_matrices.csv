@@ -1,0 +1,13 @@
+label,true_negative,false_positive,false_negative,true_positive
+App_Performance,1594,141,18,242
+Search_Discovery,1817,93,8,77
+Ordering_Checkout,1879,68,5,43
+Payment_Billing,1834,91,2,68
+Delivery_Tracking,1711,187,9,88
+Returns_Refunds,1838,104,4,49
+Product_Seller,1855,100,9,31
+Pricing_Promotions,1872,60,2,61
+Account_Prime,1736,170,6,83
+Customer_Service,1817,109,7,62
+No_Issue,1390,102,40,463
+other_issues,1021,157,175,642

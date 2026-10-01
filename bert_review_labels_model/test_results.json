@@ -1,0 +1,14 @@
+{
+    "test_exact_match_accuracy": 0.5674185463659148,
+    "test_hamming_loss": 0.06963241436925648,
+    "test_loss": 0.3679661154747009,
+    "test_macro_f1": 0.5941263001859559,
+    "test_macro_precision": 0.46620832866394113,
+    "test_macro_recall": 0.9013605082101889,
+    "test_micro_f1": 0.6960802187784868,
+    "test_micro_precision": 0.5800668489820723,
+    "test_micro_recall": 0.8701002734731085,
+    "test_runtime": 3.1858,
+    "test_samples_per_second": 626.222,
+    "test_steps_per_second": 39.237
+}

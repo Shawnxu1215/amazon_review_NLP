@@ -1,0 +1,15 @@
+{
+    "epoch": 3.0,
+    "validation_exact_match_accuracy": 0.571715145436309,
+    "validation_hamming_loss": 0.0655717151454363,
+    "validation_loss": 0.32330867648124695,
+    "validation_macro_f1": 0.6009365817782214,
+    "validation_macro_precision": 0.472335344677049,
+    "validation_macro_recall": 0.9261048008801654,
+    "validation_micro_f1": 0.7113155473781049,
+    "validation_micro_precision": 0.595502156500308,
+    "validation_micro_recall": 0.8830516217450891,
+    "validation_runtime": 3.3933,
+    "validation_samples_per_second": 587.635,
+    "validation_steps_per_second": 36.838
+}

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local notebooks / editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project backups and temporary outputs
+*.backup-*.csv
+*.tmp
+*.log
+
+# Raw source dataset is large; keep sampled/annotated CSVs in the repo instead.
+ShoppingAppReviews Dataset/
+
+# Large training checkpoints
+**/checkpoint-*/
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state.pth
+
+# Keep final model artifacts, but ignore duplicate experimental model dirs by default.
+bert_sentiment_model/
+bert_smoke_test/
+bert_weighted_smoke/
+
+# Cache/build output
+wandb/
+runs/
+outputs/

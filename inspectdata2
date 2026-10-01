@@ -1,0 +1,20 @@
+import pandas as pd
+
+df = pd.read_csv("sampled_30k.csv")
+
+# 1. 看总共有多少条
+print("Total rows:", len(df))
+
+# 2. 看年份分布
+print("\nYear distribution:")
+print(df["year"].value_counts().sort_index())
+
+print("\nYear percentage:")
+print(df["year"].value_counts(normalize=True).sort_index() * 100)
+
+# 3. 看 rating 分布
+print("\nRating distribution:")
+print(df["score"].value_counts().sort_index())
+
+print("\nRating percentage:")
+print(df["score"].value_counts(normalize=True).sort_index() * 100)
